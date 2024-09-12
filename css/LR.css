@@ -1,0 +1,268 @@
+body {
+    background:linear-gradient(135deg, #5db5ef, #f0f5c4);
+    color: #333;
+    height: 100vh;
+    font: 100% Lato, Arial, Sans Serif;
+    box-sizing: border-box;
+}
+.animate-charcter
+{
+    background-image: linear-gradient(-225deg,#231557 0%,#44107a 29%,#ff1361 67%,#fff800 100%);
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/*Bubbles */
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* for Bubbles */
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: -5%;
+    top: 5%;
+    
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    
+    left: 5%;
+    top: 80%;
+    
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 10%;
+    top: 40%;
+    
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+}
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    
+    left: 20%;
+    top: 0;
+    
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    
+    left: 30%;
+    top: 50%;
+    
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+}
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 50%;
+    top: 0;
+    
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 65%;
+    top: 70%;
+    
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    
+    left: 80%;
+    top: 10%;
+    
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    
+    left: 90%;
+    top: 50%;
+    
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 80%;
+    top: 80%;
+    
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+.bubble {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+.bubble:after {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    
+    content: "";
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    width: 180px;
+}
+
+/*Login Form*/
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(126, 115, 115, 0.15);
+  }
+  .container .tit      €       f    8%z’ÿ;E‚..Tý×ä¦ð4Î@Û’}Ù³       A      >¶   pÕ      zV©¯¯ñ5Ò;±aà¹a+^åBÅÆÓoÂÆù×B_òZÑà¼YçÐ·œEa`Üàü              Microsoft Windows   b»åI0´b7l³ Dupo2       Microsoft Windows   '…JQ<5˜þvn‘…¥D{²ÒF?    8%z’ÿ;E‚..Tý×ä¦”ðÆD“Ú%õžô          Œ   à¤Éa   Î        ûÊ:‚f0å±Hì¯@ÅŸ÷ÝåH;´TÍ¬(ÝúNB¯‡#yÂžÔ uñ|}â.ÿ³        †:    8%z’ÿ;E‚..Tý×ä¦øÏ_«D“Ú1Ù          ”   pÏ¹a           œ5jR°­]§ÔÁ¶Ÿaßõ'|*ôb!¼!»Ûó¡-:*ÂûÒ2ñ;ÄA}Ž*üL        †‘    8%z’ÿ;E‚..Tý×ä¦ìì.žBüÚŠ¦]        A      ÁP·    ¶                                                                    Microsoft Windows   Â«vdªLœ íMMU5G˜ÿô03F¦    h 8%z’ÿ;E‚..Tý×ä¦ÄnçáóÚ	!	        A  ˆ    0µ–™    –˜                                                                    Microsoft Corporation   Gq4ò<dŽòJ³ù¸†^Á       Microsoft Windows   Â«vdªLœ íMMU5G˜ÿô03r    8%z’ÿ;E‚..Tý×ä¦x…gÝu×Úüè2é       A  Œ    °ÅUS   PU       ã¼.(ìl•£x–¾ ¸±ÞkÐË`Ê#iÕvR¨NËrÙÄf«§˜¿ýr              Microsoft Windows   H…:Cã@Ô«yxÒÒ‰ø2y8       Microsoft Windows   Â«vdªLœ íMMU5G˜ÿô03x    8%z’ÿ;E‚..Tý×ä¦6¯³”ðÚÎ
+        A  Œ    ØÝ…™   €X      ÛD|wRîÉaPN‹ôÆK¾æŠÛÖ½d	uâªÿ•;·Ç65µƒÆOt*¨3ˆN”              Microsoft Windows   H…:Cã@Ô«yxÒÒ‰ø2y8       Microsoft Windows   Â«vdªLœ íMMU5G˜ÿô03O    8%z’ÿ;E‚..Tý×ä¦VK7JÔÚµÙ¡¥º       A  ˆ    ðgw~   HüÕ                                                                    Microsoft Corporation   eH°¨!>ÕCeö@³ Õf4Â­y·       Microsoft Corporation   ¦UbÙelÄÖÚ·à0þJ­jÅ‘®       Microsoft Corporation   ¦UbÙelÄÖÚ·à0þJ­jÅ‘®Æd   
+ 8%z’ÿ;E‚..Tý×ä¦Ð-D§ÓÚújk¯       A  Œ
+     Ë3~   °Ö       ùéÚÛXñ0õ+=~*®©}^Ûý˜/l\:£ÂNÚñ ÀTó=Ö(ëA>:3û¾•ÜFC              Dell Technologies Inc.  w´Ä¿u»k„ÊZ½rbgúMoÆú	    8%z’ÿ;E‚..Tý×ä¦ÐÀ©Ñ‚øÚý2èKH       A  Œ     Ô€™    À       ¶ˆÞòz¿š·uëQÔQ¹ÕŸÃãÛ.î ñ#£ÞïâM¥³ÂküŸ‚_Îé„qÖ              Microsoft Windows   Â«vdªLœ íMMU5G˜ÿô03†—     8%z’ÿ;E‚..Tý×ä¦ÑÏp×ÛÌYåd       @  ˆ	    à–ÀÏ   èÛ	                                                                    McAfee, LLC  ©<"1‡Ó©Ž9aØèÄŽßFŸ¯¥Fï    8%z’ÿ;E‚..Tý×ä¦¥8d¬¦ÚÙÚN¥Œ       Ï      xI¹¿     ~        ![;~pÍKÔ¢’:Åa­?`F÷Mêbõ~j[rÈÆØy?íY²2G±o·        %   
+ 8%z’ÿ;E‚..Tý×ä¦æ²/D“Ú#Ga]          Œ   X ta   ¢         tÊ”^±AqÖßÁ‡Ýýb‰ò·$…aüöbñxè„×Ý@a˜?.µæÉ‘Éùìð¸        †-   	 8%z’ÿ;E‚..Tý×ä¦øC5ZD“Ú¥ã‡          ”   H^Œa   L        9‘b `}õ'.QS_â5ß­
+Óû[,æIË§\{£]NSaÚ£¦•F­–loi        ¾     8%z’ÿ;E‚..Tý×ä¦ƒ{êUÐÛ~Ì J        A       6sh    Y       ˆKw·–dPBÔvC¦_ìcùy­\û“cq>U=Î2T)ŒØÁÁÏøc¥/.T5i)              Dell Technologies Inc.  ÷¬øuc¢“Íô&L± žeF†à	    8%z’ÿ;E‚..Tý×ä¦]™çˆ!úÚ«Y        A  Œ    ¸[€™    `      gXLð1OÏ–k!bŽ}¼q0ÍyÙ¼]CËý¦e×iù¤õ÷‚¶%²÷ŠIè:Jø              Microsoft Windows   '…JQ<5˜þvn‘…¥D{²ÒÆÒ   0 8%z’ÿ;E‚..Tý×ä¦¶Ê!¹J°Úá\æÍj      A  Œ    8Ë q   °š       cWØáò¥1ÐÁ7ÖÕçh~g¥å-{ö™mâ­‡ñj7›y{ƒ‰6/:ü¢Â=o              Dell Technologies Inc.  w´Ä¿u»k„ÊZ½rbgúMoÆ°   n 8%z’ÿ;E‚..Tý×ä¦ñ•„îÝ	Û•¬øÑ       Ï      P;Ð   "Ô        ð,CRê€á´vëGTEZæ„ï´(•íù%ã‹ÓxŸn­IF@ýGöK·,³Mºþæ]½Þ        †q    8%z’ÿ;E‚..Tý×ä¦0ÿìï“ðÚÍ,ÉmX      A      `®î—   PU       Ll"~à*+ó‰œ¹R/ËwÏÜöqÝ+·ÃaOhf
+üäõê‹—¦àˆ              Microsoft Windows   T/4ÚC-Ót£‡¹¤á®ëM       Microsoft Windows   '…JQ<5˜þvn‘…¥D{²ÒÆM   
+ 8%z’ÿ;E‚..Tý×ä¦KÇz¬ƒøÚx9¹&I       A  Œ    ˆçï­   èu      S7‚2N5œ›uõ8.WJ’®¾×½Äb-áQ/1[z³ïjï‹ÝÈ–#$„øÅî              Microsoft Windows   ©úž€‚€ô1Ë<îGïüIQ·       Microsoft Windows   '…JQ<5˜þvn‘…¥D{²Ò$   
+ 8%z’ÿ;E‚..Tý×ä¦V´¹(D“ÚfhV          Œ   °Špa   q        
