@@ -111,9 +111,9 @@
         }
     ?> 
 
-    <form method="post" action="register.php"><div class="container">
+<form method="post" action="register.php"><div class="container">
         <div class="title">Register</div>
-            <div class="content">
+        <div class="content">
                 <br><br>
                 <div class="user-details">
                     <div class="input-box">
@@ -173,10 +173,10 @@
                     <input type="submit" name="submit" value="Register">
                 </div>
                 <br>
-                <a href="login.php"><u>Proceed to Login ??<u></a>
-            </div>
+            </form>
+            <a href="login.php"><u>Proceed to Login ??<u></a>
         </div>
-    </form>
+    </div>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 body {
     background:linear-gradient(135deg, #5db5ef, #f0f5c4);
     color: #333;
+    height: 100vh;
     font: 100% Lato, Arial, Sans Serif;
     box-sizing: border-box;
 }

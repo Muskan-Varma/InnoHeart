@@ -1,6 +1,7 @@
 body {
     background:linear-gradient(135deg, #5db5ef, #f0f5c4);
     color: #333;
+    height: 100vh;
     font: 100% Lato, Arial, Sans Serif;
     box-sizing: border-box;
 }
@@ -242,14 +243,9 @@ body {
     width: 180px;
 }
 
-/*Form*/
+/*Login Form*/
 
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+
 
 .container{
   max-width: 700px;

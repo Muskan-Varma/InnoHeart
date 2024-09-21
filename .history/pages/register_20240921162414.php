@@ -114,68 +114,68 @@
     <form method="post" action="register.php"><div class="container">
         <div class="title">Register</div>
             <div class="content">
-                <br><br>
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">First Name </span>
-                        <input type="text" name="fname" placeholder="Enter first name" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Last Name </span>
-                        <input type="text" name="lname" placeholder="Enter last name" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Mobile No. </span>
-                        <input type="number" name="phone" placeholder="Enter your contact" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">E-mail </span>
-                        <input type="email" name="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">DOB </span>
-                        <input type="date" name="dob" required>
-                    </div>
-                    <div class="gender-details">
-                        <input type="radio" name="gender" id="dot-1" value="male">
-                        <input type="radio" name="gender" id="dot-2" value="female">
-                        <input type="radio" name="gender" id="dot-3" value="pn">
-                        <span class="details">Gender</span>
-                        <div class="category">
-                            <label for="dot-1">
-                                <span class="dot one"></span>
-                                <span class="gender">Male</span>
-                            </label>
-                            <label for="dot-2">
-                                <span class="dot two"></span>
-                                <span class="gender">Female</span>
-                            </label>
-                            <label for="dot-3">
-                                <span class="dot three"></span>
-                                <span class="gender">Prefer not to say</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Username </span> 
-                        <input type="text" name="username" required> 
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Password </span>  
-                        <input type="password" name="password" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Confirm Password </span> 
-                        <input type="password" name="cpassword" required>
+            <br><br>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name </span>
+                    <input type="text" name="fname" placeholder="Enter first name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name </span>
+                    <input type="text" name="lname" placeholder="Enter last name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Mobile No. </span>
+                    <input type="number" name="phone" placeholder="Enter your contact" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">E-mail </span>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">DOB </span>
+                    <input type="date" name="dob" required>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1" value="male">
+                    <input type="radio" name="gender" id="dot-2" value="female">
+                    <input type="radio" name="gender" id="dot-3" value="pn">
+                    <span class="details">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
                     </div>
                 </div>
-                <div class="button">
-                    <input type="submit" name="submit" value="Register">
+                <div class="input-box">
+                    <span class="details">Username </span> 
+                    <input type="text" name="username" required> 
                 </div>
-                <br>
-                <a href="login.php"><u>Proceed to Login ??<u></a>
+                <div class="input-box">
+                    <span class="details">Password </span>  
+                    <input type="password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password </span> 
+                    <input type="password" name="cpassword" required>
+                </div>
             </div>
+            <div class="button">
+                <input type="submit" name="submit" value="Register">
+            </div>
+            <br>
+            <a href="login.php"><u>Proceed to Login ??<u></a>
         </div>
+    </div>
     </form>
 </body>
 

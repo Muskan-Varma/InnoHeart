@@ -1,8 +1,13 @@
 body {
     background:linear-gradient(135deg, #5db5ef, #f0f5c4);
     color: #333;
+    height: 100vh;
     font: 100% Lato, Arial, Sans Serif;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .animate-charcter
@@ -242,14 +247,7 @@ body {
     width: 180px;
 }
 
-/*Form*/
-
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+/*Login Form*/
 
 .container{
   max-width: 700px;
@@ -274,6 +272,9 @@ form{
   border-radius: 5px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+
+/* ... (Previous CSS content) ... */
+
 
 .content form .user-details{
   display: flex;

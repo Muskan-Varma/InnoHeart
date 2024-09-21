@@ -175,7 +175,7 @@
                 <br>
                 <a href="login.php"><u>Proceed to Login ??<u></a>
             </div>
-        </div>
+    </div>
     </form>
 </body>
 

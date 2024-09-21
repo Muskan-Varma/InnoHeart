@@ -173,10 +173,10 @@
                     <input type="submit" name="submit" value="Register">
                 </div>
                 <br>
-                <a href="login.php"><u>Proceed to Login ??<u></a>
-            </div>
+            </form>
+            <a href="login.php"><u>Proceed to Login ??<u></a>
         </div>
-    </form>
+    </div>
 </body>
 
 </html>
