@@ -21,7 +21,6 @@ $user = $result->fetch_assoc();
 $uid = $user['uid'];
 $stmt->close();
 
-// Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $title = $_POST['title'];
     $description = $_POST['description'];

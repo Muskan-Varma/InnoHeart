@@ -12,7 +12,7 @@ if (!isset($_SESSION['username'])) {
 $username = $_SESSION['username'];
 
 // Fetch user id (uid) from the database
-$sql = "SELECT uid FROM Users WHERE username = ?";
+$sql = "SELECT uid FROM users WHERE username = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $username);
 $stmt->execute();
@@ -21,7 +21,6 @@ $user = $result->fetch_assoc();
 $uid = $user['uid'];
 $stmt->close();
 
-// Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $title = $_POST['title'];
     $description = $_POST['description'];
