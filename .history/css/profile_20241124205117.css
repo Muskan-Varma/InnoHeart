@@ -1,0 +1,17 @@
+.card{
+    background-color: rgba(249, 245, 245, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.sellButton{
+    width: 200px; 
+    margin-top: 50px;
+    border-radius: 10px;
+    background:linear-gradient(135deg, #5db5ef, #f0f5c4);
+}
+
+.sellButton:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+        }
+}

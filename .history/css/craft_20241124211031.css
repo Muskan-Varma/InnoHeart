@@ -1,0 +1,27 @@
+#playarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+form{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(126, 115, 115, 0.15);
+}
+
+form h2{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  form h2{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
