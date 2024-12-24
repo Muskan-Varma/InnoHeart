@@ -11,7 +11,7 @@
          $username, $password, $database); 
    
     if($conn) { 
-        echo "success";  
+        error_log("Database connected successfully."); 
     }  
     else { 
         die("Error". mysqli_connect_error());  

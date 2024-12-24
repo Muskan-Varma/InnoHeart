@@ -11,22 +11,9 @@
          $username, $password, $database); 
    
     if($conn) { 
-        echo "success";  
+        error_log("Database connected successfully."); 
     }  
     else { 
         die("Error". mysqli_connect_error());  
     }  
 ?> 
-
-<?php
-$servername = "your_servername";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_dbname";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
