@@ -64,7 +64,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-    <a href="../data/saras_help.pdf" class="help">Help</a>
     <center>
         <div class="container1">
             <div class="row">

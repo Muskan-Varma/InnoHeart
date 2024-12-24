@@ -64,7 +64,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-    <a href="../data/saras_help.pdf" class="help">Help</a>
     <center>
         <div class="container1">
             <div class="row">
@@ -87,6 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="bubble x9"></div>
             <div class="bubble x10"></div>
         </div>
+        <a href="data/help.pdf" class="help">Help</a>
     </section>
     <form method="post" action="login.php">
         <div class="container">

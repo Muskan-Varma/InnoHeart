@@ -315,5 +315,18 @@ h1{ color: #fff;}
     margin-top: 2%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 1%;
-    background: linear-gradient(135deg, #0905db, #55acfd);
+    background: linear-gradient(45deg,#cf7ff4, #7404a7, #7a00ff);
+}
+
+.help:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
 }

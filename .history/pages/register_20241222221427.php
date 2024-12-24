@@ -59,8 +59,8 @@
         }    
     ?> 
 
-    <a href="../data/saras_help.pdf" class="help">Help</a>
-    <center>
+    
+<center>
         <div class="container1">
             <div class="row">
                 <br><br><br>

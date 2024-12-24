@@ -62,7 +62,6 @@ if (isset($_SESSION['username'])) {
           >
         </div>
       </section>
-
       <center>
         <div class="row">
           <br /><br /><br />

@@ -537,20 +537,3 @@ padding: 16px;
   color: red;
 }
 
-/*help*/
-body .help{
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 50%;
-  float: right;
-  margin-top: 2%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-right: 1%;
-  background: linear-gradient(135deg, #0905db, #55acfd);
-}

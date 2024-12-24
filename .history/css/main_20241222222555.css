@@ -538,7 +538,7 @@ padding: 16px;
 }
 
 /*help*/
-body .help{
+.help{
   border: none;
   color: white;
   padding: 20px;

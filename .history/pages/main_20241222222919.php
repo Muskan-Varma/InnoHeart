@@ -43,7 +43,6 @@ if (isset($_SESSION['username'])) {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    <a href="../data/saras_help.pdf" class="help">Help</a>
     <div class="container">
       <section id="navbar">
         <div id="mySidenav" class="sidenav">
@@ -62,7 +61,6 @@ if (isset($_SESSION['username'])) {
           >
         </div>
       </section>
-
       <center>
         <div class="row">
           <br /><br /><br />
