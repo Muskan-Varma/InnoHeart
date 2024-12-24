@@ -273,7 +273,7 @@ transition: 0.3s;
 }
 
 .sidenav a:hover {
-color: white;
+color: a;
 }
 
 .sidenav .closebtn {
@@ -297,9 +297,9 @@ padding: 16px;
 /* Header */
 .navbar1 {
   margin-top: 20px;
-  width:90%;
+  width:fit-content;
   margin-left: 50px;
-  background: linear-gradient(135deg, #fba609, #f1fb3c);
+  background: linear-gradient(135deg, #62f1f1, #f2f4cf);
 }
 
 .navbar1 a {
@@ -329,8 +329,7 @@ padding: 16px;
 }
 
 .navbar1 a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(68, 124, 254);
-  color: white;
+  background-color: rgb(235, 249, 46);
 }
 
 .dropdown-content {

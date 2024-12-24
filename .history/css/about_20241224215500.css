@@ -4,9 +4,6 @@ body {
 }
 
 .about-section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     padding: 50px;
     background-color: rgba(249, 245, 245, 0.5);
     margin: 30px auto;

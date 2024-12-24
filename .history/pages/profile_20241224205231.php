@@ -28,7 +28,7 @@ $stmt->close();
 
 // Fetch crafts uploaded by the logged-in user
 $uid = $user['uid'];
-$sql = "SELECT cid, title, description, category, price, quantity, pdate FROM craft WHERE uid = ?";
+$sql = "SELECT title, description, category, price, quantity, pdate FROM craft WHERE uid = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $uid);
 $stmt->execute();
@@ -78,7 +78,7 @@ $conn->close();
                             Posted On : <?php echo htmlspecialchars($row['pdate']); ?>
                             </span>
                             <h4>
-                            <a href="craftDetails.php?cid=<?php echo $row['cid']; ?>"><?php echo htmlspecialchars($row['title']); ?></a>
+                            <a href="craftDetails.php?cid=<?php echo htmlspecialchars$row['cid']; ?>"><?php echo htmlspecialchars($row['title']); ?></a>
                             </h4>
                             <p><?php echo htmlspecialchars($row['description']); ?></p>
                             <div class="product-bottom-details">

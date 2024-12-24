@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(249, 245, 245, 0.5);
 }
 
 .about-section {
@@ -10,7 +9,6 @@ body {
     padding: 50px;
     background-color: rgba(249, 245, 245, 0.5);
     margin: 30px auto;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-text, .video-container {

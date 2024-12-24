@@ -257,7 +257,7 @@ position: fixed;
 z-index: 1;
 top: 0;
 left: 0;
-background: linear-gradient(135deg, #fba609, #f1fb3c);
+background: linear-gradient(135deg, #180dea, #f2f4cf);
 overflow-x: hidden;
 transition: 0.5s;
 padding-top: 60px;
@@ -267,13 +267,13 @@ padding-top: 60px;
 padding: 8px 8px 8px 32px;
 text-decoration: none;
 font-size: 25px;
-color: black;
+color: white;
 display: block;
 transition: 0.3s;
 }
 
 .sidenav a:hover {
-color: white;
+color:aqua;
 }
 
 .sidenav .closebtn {
@@ -297,9 +297,9 @@ padding: 16px;
 /* Header */
 .navbar1 {
   margin-top: 20px;
-  width:90%;
+  width:fit-content;
   margin-left: 50px;
-  background: linear-gradient(135deg, #fba609, #f1fb3c);
+  background: linear-gradient(135deg, #62f1f1, #f2f4cf);
 }
 
 .navbar1 a {
@@ -329,8 +329,7 @@ padding: 16px;
 }
 
 .navbar1 a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(68, 124, 254);
-  color: white;
+  background-color: rgb(235, 249, 46);
 }
 
 .dropdown-content {
@@ -554,34 +553,4 @@ body .help{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-right: 1%;
   background: linear-gradient(135deg, #0905db, #55acfd);
-}
-
-/*craft details */
-
-.craft-details {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
-
-.details-container {
-  display: flex;
-  gap: 20px;
-}
-
-.images-section img {
-  width: 100px;
-  height: auto;
-  margin: 5px;
-}
-
-.info-section p {
-  margin: 10px 0;
-}
-
-.info-section h3 {
-  margin-top: 20px;
 }

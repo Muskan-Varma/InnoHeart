@@ -330,7 +330,6 @@ padding: 16px;
 
 .navbar1 a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(68, 124, 254);
-  color: white;
 }
 
 .dropdown-content {

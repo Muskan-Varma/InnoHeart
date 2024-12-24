@@ -186,7 +186,7 @@ $stmt->close();
             <div class="card">
                 <div class="product-card">
                     <div class="product-details">
-                        <h4><a href="craftDetails.php?cid=<?php echo $craft['cid']; ?>">
+                        <h4><a href="craftDetails.php?cid=<?php echo $['cid']; ?>">
                         <?php echo htmlspecialchars($craft['title']); ?> </a></h4>
                         <p><?php echo htmlspecialchars($craft['description']); ?></p>
                         <p>Price: <?php echo htmlspecialchars($craft['price']); ?></p>

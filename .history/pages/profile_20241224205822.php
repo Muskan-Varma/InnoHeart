@@ -28,7 +28,7 @@ $stmt->close();
 
 // Fetch crafts uploaded by the logged-in user
 $uid = $user['uid'];
-$sql = "SELECT cid, title, description, category, price, quantity, pdate FROM craft WHERE uid = ?";
+$sql = "SELECT title, description, category, price, quantity, pdate FROM craft WHERE uid = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $uid);
 $stmt->execute();
