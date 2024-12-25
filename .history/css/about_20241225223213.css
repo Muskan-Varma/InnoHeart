@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: skyblue;
 }
 
 .about-section {
@@ -28,7 +29,7 @@ body {
     font-size: 18px;
     color: #555;
     line-height: 1.6;
-    padding-right: 5%;
+    padding-right: 2%;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -118,7 +119,7 @@ video {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     cursor: pointer;

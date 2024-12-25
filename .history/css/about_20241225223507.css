@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: skyblue;
 }
 
 .about-section {
@@ -118,8 +119,8 @@ video {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
+    background-color: rgba(249, 245, 245, 0.8);
+    color: black;
     border: none;
     cursor: pointer;
     padding: 10px;

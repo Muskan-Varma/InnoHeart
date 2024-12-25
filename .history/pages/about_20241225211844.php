@@ -37,7 +37,7 @@
     </section>
 
     <!-- Video container -->
-    <div class="team-container1">
+    <div class="team-container">
         <div class="video-container">
             <video controls>
                 <source src="../data/Sell Your Crafts Easily with SARAS!-VEED.mp4" type="video/mp4">
@@ -47,8 +47,8 @@
     </div>
 
     <!-- Why Choose Us section -->
-    <div class="team-container2">
-        <h1>Why Choose Us?</h1>
+    <div class="team-container">
+        <h2>Why Choose Us?</h2>
         <div class="card-container">
             <div>
                 <i class="fas fa-users"></i><strong>For Everyone:</strong> You don’t need a business profile, professional experience, or a large portfolio to get started. Whether you’re an individual creator, a hobbyist, or a beginner, our platform is open to all.

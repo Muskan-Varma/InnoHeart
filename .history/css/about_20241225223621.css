@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: skyblue;
 }
 
 .about-section {
@@ -49,6 +50,7 @@ video {
 .team-container {
     padding: 4%;
     border-radius: 10px;
+    a
     background-color: antiquewhite;
 }
 

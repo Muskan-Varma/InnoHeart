@@ -3,9 +3,7 @@ body {
 }
 
 .about-section {
-    margin: 7%;
-    margin-top: 4%;
-    padding: 5%;
+    padding: 50%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,14 +19,12 @@ body {
 .about-text h1 {
     text-align: left;
     color: #333;
-    font-size: 30px;
 }
 
 .about-text p {
     font-size: 18px;
     color: #555;
     line-height: 1.6;
-    padding-right: 5%;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -40,46 +36,30 @@ body {
 }
 
 video {
-    width: 80%;
+    width: 70%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Team section */
 .team-container {
-    padding: 4%;
+    padding: 40px;
     border-radius: 10px;
-    background-color: antiquewhite;
-}
-
-.team-container1 {
-    margin: 7%;
-    margin-top: 4%;
-    padding: 2%;
-    border-radius: 10px;
-    background-color: rgba(249, 245, 245, 0.5);
-}
-
-.team-container2 {
-    margin: 7%;
-    margin-top: 4%;
-    padding: 5%;
-    border-radius: 10px;
-    background-color: rgba(249, 245, 245, 0.5);
 }
 
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    padding-top: 3%;
-    font-size: 18px;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 .card-container div {
-    padding: 4%;
-    background-color: white;
+    padding: 10px;
+    background-color: #f0f0f0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -118,7 +98,7 @@ video {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     cursor: pointer;

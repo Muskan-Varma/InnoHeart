@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: skyblue;
 }
 
 .about-section {
@@ -28,7 +29,6 @@ body {
     font-size: 18px;
     color: #555;
     line-height: 1.6;
-    padding-right: 5%;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -78,7 +78,7 @@ video {
 }
 
 .card-container div {
-    padding: 4%;
+    p
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -118,7 +118,7 @@ video {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     cursor: pointer;
