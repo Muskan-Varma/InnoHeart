@@ -48,8 +48,8 @@ if (isset($_SESSION['username'])) {
 <body>
     <section id="content-section">
         <?php foreach ($favouriteCrafts as $row): ?>
-        <div class="card" style="background-color: rgba(249, 245, 245, 0.5); padding:3%;">
-        <h1 style="font-size: 23px; padding-left:30px;">Your Favourites : </h1>
+        <div class="card" style="background-color: rgba(249, 245, 245, 0.5);">
+        <h1 style="font-size: 2px; padding-left:30px;">Your Favourites</h1>
             <div class="product-card">
                 <!-- Display category if it exists -->
                 <?php if (!empty($row['category'])): ?>
@@ -75,7 +75,7 @@ if (isset($_SESSION['username'])) {
 
                 <div class="product-details">
                     <span class="product-category">Posted On: <?php echo htmlspecialchars($row['pdate']); ?></span>
-                    <h4><a href="craftDetails.php?cid=<?php echo $row['cid']; ?>"><?php echo htmlspecialchars($row['title']); ?></a></h4>
+                    <h4><a href="craftDetails.php?cid=<?php echo $row['cid']; ?>"><?php echo htmlspecialchars($row['title']); ?></h4>
                     <p><?php echo htmlspecialchars($row['description']); ?></p>
                     <div class="product-bottom-details">
                         <div class="product-price">
@@ -85,12 +85,11 @@ if (isset($_SESSION['username'])) {
                         </div>
                         <div class="product-links">
                             <!-- Buy button -->
-                            <button style="padding: 10px; font-size: 16px; color: white; text-align: center; cursor: pointer; background: linear-gradient(135deg, #0905db, #55acfd);" class="buy-btn" onclick="showSellerDetails(<?php echo $row['cid']; ?>)">Buy</button>
+                            <button class="buy-btn" onclick="showSellerDetails(<?php echo $row['cid']; ?>)">Buy</button>
                         </div>
                     </div>
 
-                    <div class="seller-details" id="seller-<?php echo $row['cid']; ?>" style="margin-top:10%; display: none;">
-                        <hr><br>
+                    <div class="seller-details" id="seller-<?php echo $row['cid']; ?>" style="display: none;">
                         <strong>Seller Details:</strong>
                         <p>Name: <?php echo htmlspecialchars($row['firstName']); ?></p>
                         <p>Email: <?php echo htmlspecialchars($row['email']); ?></p>

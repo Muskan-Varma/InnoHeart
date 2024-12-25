@@ -85,12 +85,14 @@ if (isset($_SESSION['username'])) {
                         </div>
                         <div class="product-links">
                             <!-- Buy button -->
-                            <button style="padding: 10px; font-size: 16px; color: white; text-align: center; cursor: pointer; background: linear-gradient(135deg, #0905db, #55acfd);" class="buy-btn" onclick="showSellerDetails(<?php echo $row['cid']; ?>)">Buy</button>
+                            <button style="color: white;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(135deg, #0905db, #55acfd);" class="buy-btn" onclick="showSellerDetails(<?php echo $row['cid']; ?>)">Buy</button>
                         </div>
                     </div>
 
-                    <div class="seller-details" id="seller-<?php echo $row['cid']; ?>" style="margin-top:10%; display: none;">
-                        <hr><br>
+                    <div class="seller-details" id="seller-<?php echo $row['cid']; ?>" style="display: none;">
                         <strong>Seller Details:</strong>
                         <p>Name: <?php echo htmlspecialchars($row['firstName']); ?></p>
                         <p>Email: <?php echo htmlspecialchars($row['email']); ?></p>

@@ -1,3 +1,7 @@
+body{
+    background-color: skyblue;
+}
+
 .card{
     background-color: rgba(249, 245, 245, 0.5);
     padding: 40px;

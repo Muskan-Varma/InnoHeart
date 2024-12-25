@@ -1,3 +1,7 @@
+body{
+    background-color: skyblue;
+}
+
 .card{
     background-color: rgba(249, 245, 245, 0.5);
     padding: 40px;
@@ -9,7 +13,7 @@
 .sellButton{
     width: 150px; 
     margin-top: 50px;
-    margin: 2%;
+    m
     border-radius: 10px;
     color: white;
     background:linear-gradient(135deg, #0905db, #55acfd);

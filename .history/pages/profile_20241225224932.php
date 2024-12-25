@@ -52,7 +52,7 @@ $conn->close();
     <form method="post">    
         <section id="playarea" style="padding-left : 100px; padding-right : 100px;">
             <div class="card">
-                <h2>Profile</h2><br>
+                <h2>Profile</strong><br>
                 <p id="name">
                     Name : <?php echo htmlspecialchars($user['firstName'] . ' ' . $user['lastName']); ?></p>
                 <p id="phone">
@@ -71,7 +71,7 @@ $conn->close();
             <section id="content-section">
                 <?php foreach ($crafts as $row): ?>
                 <div class="card">
-                <h1 style="font-size:23px;">Your Uploads :</h1><br>
+                <h1><label class="heading">Your Uploads :</label></h1><br>
                     <div class="product-card">
                         <div class="product-details">
                             <span class="product-category">

@@ -90,7 +90,7 @@ if (isset($_SESSION['username'])) {
                     </div>
 
                     <div class="seller-details" id="seller-<?php echo $row['cid']; ?>" style="margin-top:10%; display: none;">
-                        <hr><br>
+                        <hr>
                         <strong>Seller Details:</strong>
                         <p>Name: <?php echo htmlspecialchars($row['firstName']); ?></p>
                         <p>Email: <?php echo htmlspecialchars($row['email']); ?></p>

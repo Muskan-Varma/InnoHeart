@@ -431,7 +431,7 @@ padding: 16px;
 
 .product-bottom-details {
     overflow: hidden;
-    border-top: 1px solid #a9a8a8;
+    border-top: 1px solid #eee;
     padding-top: 20px;
 }
 
@@ -538,6 +538,10 @@ padding: 16px;
 .heart-red {
   color: red;
 }
+
+/* buy button */
+
+
 
 /*help*/
 body .help{

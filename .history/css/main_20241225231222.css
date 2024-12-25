@@ -431,7 +431,7 @@ padding: 16px;
 
 .product-bottom-details {
     overflow: hidden;
-    border-top: 1px solid #a9a8a8;
+    border-top: 1px solid #eee;
     padding-top: 20px;
 }
 
@@ -537,6 +537,24 @@ padding: 16px;
 
 .heart-red {
   color: red;
+}
+
+/* buy button */
+
+button .buy-btn{
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  float: right;
+  margin-top: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 1%;
+  background: linear-gradient(135deg, #0905db, #55acfd);
+}
+
+button .buy-btn:hover{
+  background: linear-gradient(-135deg, #92c9fc,#0905db);
 }
 
 /*help*/

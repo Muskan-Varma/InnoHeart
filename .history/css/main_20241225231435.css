@@ -431,7 +431,7 @@ padding: 16px;
 
 .product-bottom-details {
     overflow: hidden;
-    border-top: 1px solid #a9a8a8;
+    border-top: 1px solid #eee;
     padding-top: 20px;
 }
 
@@ -537,6 +537,19 @@ padding: 16px;
 
 .heart-red {
   color: red;
+}
+
+/* buy button */
+
+.product-details button .buy-btn{
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(135deg, #0905db, #55acfd);
+}
+
+.product-details button .buy-btn:hover{
+  background: linear-gradient(-135deg, #92c9fc,#0905db);
 }
 
 /*help*/

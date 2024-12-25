@@ -71,7 +71,7 @@ $conn->close();
             <section id="content-section">
                 <?php foreach ($crafts as $row): ?>
                 <div class="card">
-                <h1 style="font-size:23px;">Your Uploads :</h1><br>
+                <h1 style="font-size:230px;">Your Uploads :</h1><br>
                     <div class="product-card">
                         <div class="product-details">
                             <span class="product-category">
