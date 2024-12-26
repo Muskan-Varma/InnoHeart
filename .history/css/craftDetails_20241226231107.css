@@ -1,0 +1,29 @@
+/*craft details */
+
+.craft-details {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .details-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .images-section img {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .info-section p {
+    margin: 10px 0;
+  }
+  
+  .info-section h3 {
+    margin-top: 20px;
+  }
