@@ -179,21 +179,19 @@ $stmt->close();
     </section>
 
     <!-- Manage Crafts Section -->
-    <section id="playarea" style="display: flex; flex-wrap: wrap; gap: 20px; margin: 50px;">
+    <section id="playarea">
+        <h2>Manage Crafts</h2>
         <?php foreach ($crafts as $craft): ?>
-        <form>
-            <h2>Manage Crafts</h2><br>
-            <div class="card">
-                <div class="product-card">
-                    <div class="product-details">
-                        <h4><a href="craftDetails.php?cid=<?php echo $craft['cid']; ?>" target="_blank">
-                        <?php echo htmlspecialchars($craft['title']); ?> </a></h4>
-                        <p><?php echo htmlspecialchars($craft['description']); ?></p>
-                        <p>Price: <?php echo htmlspecialchars($craft['price']); ?></p>
-                        <p>Quantity: <?php echo htmlspecialchars($craft['quantity']); ?></p>
-                    </div>
+        <div class="card">
+            <div class="product-card">
+                <div class="product-details">
+                    <h4><a href="craftDetails.php?cid=<?php echo $craft['cid']; ?>" target="_blank">
+                    <?php echo htmlspecialchars($craft['title']); ?> </a></h4>
+                    <p><?php echo htmlspecialchars($craft['description']); ?></p>
+                    <p>Price: <?php echo htmlspecialchars($craft['price']); ?></p>
+                    <p>Quantity: <?php echo htmlspecialchars($craft['quantity']); ?></p>
                 </div>
-            </form>
+            </div>
             
             <form method="post" action="settings.php" style="padding:0; width: 150px;">
                 <input type="hidden" name="craft_id" value="<?php echo htmlspecialchars($craft['cid']); ?>">

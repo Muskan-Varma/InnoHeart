@@ -179,12 +179,12 @@ $stmt->close();
     </section>
 
     <!-- Manage Crafts Section -->
-    <section id="playarea" style="display: flex; flex-wrap: wrap; gap: 20px; margin: 50px;">
-        <?php foreach ($crafts as $craft): ?>
-        <form>
-            <h2>Manage Crafts</h2><br>
+    <section id="playarea">
+        <form style="display:flex;">
+            <h2>Manage Crafts</h2>
             <div class="card">
                 <div class="product-card">
+                <?php foreach ($crafts as $craft): ?>
                     <div class="product-details">
                         <h4><a href="craftDetails.php?cid=<?php echo $craft['cid']; ?>" target="_blank">
                         <?php echo htmlspecialchars($craft['title']); ?> </a></h4>

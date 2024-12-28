@@ -85,24 +85,33 @@
     </section>
     <?php 
         if ($showAlert) { 
-            echo "<script>
-                alert('Success! Your account is now created, and you can login.');
-            </script>";
+            echo '<div class="alert alert-success alert-dismissible fade show" role="alert"> 
+                <strong>Success!</strong> Your account is now created and you can login.  
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">  
+                    <span aria-hidden="true">×</span>  
+                </button>  
+            </div>';  
+            
         } 
-
+        
         if ($showError) { 
-            echo "<script>
-                alert('Error! $showError');
-            </script>";
+            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">  
+                <strong>Error!</strong> '. $showError .'
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"> 
+                    <span aria-hidden="true">×</span>  
+                </button>  
+            </div>';  
         } 
-
+            
         if ($exists) { 
-            echo "<script>
-                alert('Error! $exists');
-            </script>";
-        } 
-    ?>
-
+            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert"> 
+                <strong>Error!</strong> '. $exists .'
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">  
+                    <span aria-hidden="true">×</span>  
+                </button> 
+            </div>';  
+        }
+    ?> 
 
     <form method="post" action="register.php"><div class="container">
         <div class="title">Register</div>

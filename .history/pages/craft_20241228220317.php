@@ -37,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $sql = "INSERT INTO craft (title, description, category, subcategory, price, quantity, uid) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssssiii", $title, $description, $category, $subcategory, $price, $quantity, $uid);
+    $stmt->execute();
 
     if ($stmt->execute()) {
         $cid = $stmt->insert_id; // Get the last inserted craft id

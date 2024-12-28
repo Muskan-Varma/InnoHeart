@@ -83,26 +83,7 @@
             <div class="bubble x10"></div>
         </div>
     </section>
-    <?php 
-        if ($showAlert) { 
-            echo "<script>
-                alert('Success! Your account is now created, and you can login.');
-            </script>";
-        } 
-
-        if ($showError) { 
-            echo "<script>
-                alert('Error! $showError');
-            </script>";
-        } 
-
-        if ($exists) { 
-            echo "<script>
-                alert('Error! $exists');
-            </script>";
-        } 
-    ?>
-
+    xc
 
     <form method="post" action="register.php"><div class="container">
         <div class="title">Register</div>

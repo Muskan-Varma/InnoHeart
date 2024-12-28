@@ -30,13 +30,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $quantity = $_POST['quantity'];
     
     // Insert craft details into the craft table
-    /* $sql = "INSERT INTO craft (title, description, category, subcategory, price, quantity, uid) VALUES (?, ?, ?, ?, ?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sssdisi", $title, $description, $category, $subcategory, $price, $quantity, $uid); */
-
     $sql = "INSERT INTO craft (title, description, category, subcategory, price, quantity, uid) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssssiii", $title, $description, $category, $subcategory, $price, $quantity, $uid);
+    $stmt->bind_param("sssdisi", $title, $description, $category, $subcategory, $price, $quantity, $uid);
 
     if ($stmt->execute()) {
         $cid = $stmt->insert_id; // Get the last inserted craft id
@@ -111,7 +107,7 @@ $conn->close();
 
                 <div class="input-box">
                     <label for="category">Category:</label><br>
-                    <select id="category" name="category" required>
+                    <select id="category" name="category" required onchange="updateSubcategories()">
                         <option value="Drawing and Painting">Drawing and Painting</option>
                         <option value="Paper Crafts">Paper Crafts</option>
                         <option value="Textile Crafts">Textile Crafts</option>
@@ -124,7 +120,6 @@ $conn->close();
                     <label for="subcategory">Subcategory:</label><br>
                     <select id="subcategory" name="subcategory" required>
                         <!-- Subcategories will be populated here based on the category -->
-                        <option value="">Select a subcategory</option>
                     </select>
                 </div>
 
@@ -172,7 +167,7 @@ $conn->close();
             });
             }
         });
-    </script>
+        </script>
 
 </body>
 </html>

@@ -84,24 +84,24 @@
         </div>
     </section>
     <?php 
-        if ($showAlert) { 
-            echo "<script>
-                alert('Success! Your account is now created, and you can login.');
-            </script>";
-        } 
+if ($showAlert) { 
+    echo "<script>
+        alert('Success! Your account is now created, and you can login.');
+    </script>";
+} 
 
-        if ($showError) { 
-            echo "<script>
-                alert('Error! $showError');
-            </script>";
-        } 
+if ($showError) { 
+    echo "<script>
+        alert('Error! $showError');
+    </script>";
+} 
 
-        if ($exists) { 
-            echo "<script>
-                alert('Error! $exists');
-            </script>";
-        } 
-    ?>
+if ($exists) { 
+    echo "<script>
+        alert('Error! $exists');
+    </script>";
+} 
+?>
 
 
     <form method="post" action="register.php"><div class="container">

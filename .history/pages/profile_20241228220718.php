@@ -69,7 +69,7 @@ $conn->close();
             <button class="sellButton" type="button" onclick="loadPage('craft.php')"><h3>Sell Craft</h3></button>
 
             <section id="content-section">
-            <h1 style="font-size:23px;">Your Uploads :</h1>
+                
                 <?php foreach ($crafts as $row): ?>
                 <div class="card">
                     <div class="product-card">

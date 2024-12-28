@@ -180,7 +180,7 @@ $stmt->close();
 
     <!-- Manage Crafts Section -->
     <section id="playarea" style="display: flex; flex-wrap: wrap; gap: 20px; margin: 50px;">
-        <?php foreach ($crafts as $craft): ?>
+    <?php foreach ($crafts as $craft): ?>
         <form>
             <h2>Manage Crafts</h2><br>
             <div class="card">

@@ -30,13 +30,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $quantity = $_POST['quantity'];
     
     // Insert craft details into the craft table
-    /* $sql = "INSERT INTO craft (title, description, category, subcategory, price, quantity, uid) VALUES (?, ?, ?, ?, ?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sssdisi", $title, $description, $category, $subcategory, $price, $quantity, $uid); */
-
     $sql = "INSERT INTO craft (title, description, category, subcategory, price, quantity, uid) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssssiii", $title, $description, $category, $subcategory, $price, $quantity, $uid);
+    $stmt->bind_param("sssdisi", $title, $description, $category, $subcategory, $price, $quantity, $uid);
 
     if ($stmt->execute()) {
         $cid = $stmt->insert_id; // Get the last inserted craft id
@@ -124,7 +120,6 @@ $conn->close();
                     <label for="subcategory">Subcategory:</label><br>
                     <select id="subcategory" name="subcategory" required>
                         <!-- Subcategories will be populated here based on the category -->
-                        <option value="">Select a subcategory</option>
                     </select>
                 </div>
 

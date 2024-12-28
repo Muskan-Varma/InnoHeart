@@ -101,7 +101,7 @@
                 alert('Error! $exists');
             </script>";
         } 
-    ?>
+        ?>
 
 
     <form method="post" action="register.php"><div class="container">
