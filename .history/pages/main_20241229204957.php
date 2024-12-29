@@ -85,8 +85,8 @@ if (isset($_SESSION['username'])) {
           </button>
           <div class="dropdown-content">
             <a href="#" onclick="filterCrafts('Watercolor Painting')">Watercolor Painting</a>
-            <a href="#" onclick="filterCrafts('Acrylic Painting')">Acrylic Painting</a>
-            <a href="#" onclick="filterCrafts('Sketching')">Sketching</a>
+            <a href="#">Acrylic Painting</a>
+            <a href="#">Sketching</a>
           </div>
         </div>
         <div class="dropdown">
@@ -95,9 +95,9 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Origami')">Origami</a>
-            <a href="#" onclick="filterCrafts('Scrapbooking')">Scrapbooking</a>
-            <a href="#" onclick="filterCrafts('Card Making')">Card Making</a>
+            <a href="#">Origami</a>
+            <a href="#">Scrapbooking</a>
+            <a href="#">Card Making</a>
           </div>
         </div>
         <div class="dropdown">
@@ -106,9 +106,9 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Knitting')">Knitting</a>
-            <a href="#" onclick="filterCrafts('Crocheting')">Crocheting</a>
-            <a href="#" onclick="filterCrafts('Embroidery')">Embroidery</a>
+            <a href="#">Knitting</a>
+            <a href="#">Crocheting</a>
+            <a href="#">Embroidery</a>
           </div>
         </div>
         <div class="dropdown">
@@ -117,8 +117,8 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Beading')">Beading</a>
-            <a href="#" onclick="filterCrafts('Polymer Clay Jewelry')">Polymer Clay Jewelry</a>
+            <a href="#">Beading</a>
+            <a href="#">Polymer Clay Jewelry</a>
           </div>
         </div>
         <div class="dropdown">
@@ -127,8 +127,8 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Wheel Throwing')">Wheel Throwing</a>
-            <a href="#" onclick="filterCrafts('Hand Building')">Hand Building</a>
+            <a href="#">Wheel Throwing</a>
+            <a href="#">Hand Building</a>
           </div>
         </div>
       </div>
@@ -138,7 +138,7 @@ if (isset($_SESSION['username'])) {
             <div class="card" data-subcategory="<?php echo htmlspecialchars($row['subcategory']); ?>">
                <!-- Card content goes here -->
                <div class="product-card">
-                  <div class="badge"><?php echo htmlspecialchars($row['subcategory']); ?></div>
+                  <div class="badge"><?php echo htmlspecialchars($row['category']); ?></div>
                   <div class="product-tumb">
                      <?php if (!empty($row['images'])): ?>
                      <div class="image-slider" data-index="<?php echo $row['cid']; ?>">

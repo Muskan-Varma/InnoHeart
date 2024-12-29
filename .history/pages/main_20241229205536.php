@@ -117,8 +117,8 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Beading')">Beading</a>
-            <a href="#" onclick="filterCrafts('Polymer Clay Jewelry')">Polymer Clay Jewelry</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Beading</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Polymer Clay Jewelry</a>
           </div>
         </div>
         <div class="dropdown">
@@ -127,8 +127,8 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Wheel Throwing')">Wheel Throwing</a>
-            <a href="#" onclick="filterCrafts('Hand Building')">Hand Building</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Wheel Throwing</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Hand Building</a>
           </div>
         </div>
       </div>

@@ -36,8 +36,7 @@ $craftsResult = $stmt->get_result();
 
 $crafts = [];
 while ($row = $craftsResult->fetch_assoc()) {
-    
-    $cid = $row['cid'];
+    $crafts[] = $row['cid'];
     $imageSql = "SELECT image_description FROM images WHERE cid = ?";
         $imgStmt = $conn->prepare($imageSql);
         $imgStmt->bind_param("i", $cid);
@@ -93,6 +92,10 @@ $conn->close();
                                 <?php foreach ($row['images'] as $index => $image): ?>
                                     <img src="uploads/<?php echo htmlspecialchars($image); ?>" alt="" style="display: <?php echo $index === 0 ? 'block' : 'none'; ?>;">
                                 <?php endforeach; ?>
+                                <?php if (count($row['images']) > 1): ?>
+                                    <button class="prev" onclick="changeImage(this, -1)">&#10094;</button>
+                                    <button class="next" onclick="changeImage(this, 1)">&#10095;</button>
+                                <?php endif; ?>
                             </div>
                             <?php endif; ?>
                         </div>

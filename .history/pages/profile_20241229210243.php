@@ -28,7 +28,7 @@ $stmt->close();
 
 // Fetch crafts uploaded by the logged-in user
 $uid = $user['uid'];
-$sql = "SELECT cid, title, description, category, subcategory,  price, quantity, pdate FROM craft WHERE uid = ?";
+$sql = "SELECT cid, title, description, category, price, quantity, pdate FROM craft WHERE uid = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $uid);
 $stmt->execute();
@@ -36,8 +36,7 @@ $craftsResult = $stmt->get_result();
 
 $crafts = [];
 while ($row = $craftsResult->fetch_assoc()) {
-    
-    $cid = $row['cid'];
+    $crafts[] = $row['cid'];
     $imageSql = "SELECT image_description FROM images WHERE cid = ?";
         $imgStmt = $conn->prepare($imageSql);
         $imgStmt->bind_param("i", $cid);
@@ -86,16 +85,20 @@ $conn->close();
                 <?php foreach ($crafts as $row): ?>
                 <div class="card">
                     <div class="product-card">
-                        <div class="badge"><?php echo htmlspecialchars($row['subcategory']); ?></div>
-                        <div class="product-tumb">
-                            <?php if (!empty($row['images'])): ?>
-                            <div class="image-slider" data-index="<?php echo $row['cid']; ?>">
-                                <?php foreach ($row['images'] as $index => $image): ?>
-                                    <img src="uploads/<?php echo htmlspecialchars($image); ?>" alt="" style="display: <?php echo $index === 0 ? 'block' : 'none'; ?>;">
-                                <?php endforeach; ?>
-                            </div>
-                            <?php endif; ?>
-                        </div>
+                    <div class="badge"><?php echo htmlspecialchars($row['subcategory']); ?></div>
+                  <div class="product-tumb">
+                     <?php if (!empty($row['images'])): ?>
+                     <div class="image-slider" data-index="<?php echo $row['cid']; ?>">
+                           <?php foreach ($row['images'] as $index => $image): ?>
+                              <img src="uploads/<?php echo htmlspecialchars($image); ?>" alt="" style="display: <?php echo $index === 0 ? 'block' : 'none'; ?>;">
+                           <?php endforeach; ?>
+                           <?php if (count($row['images']) > 1): ?>
+                              <button class="prev" onclick="changeImage(this, -1)">&#10094;</button>
+                              <button class="next" onclick="changeImage(this, 1)">&#10095;</button>
+                           <?php endif; ?>
+                     </div>
+                     <?php endif; ?>
+                  </div>
 
                         <div class="product-details">
                             <span class="product-category">

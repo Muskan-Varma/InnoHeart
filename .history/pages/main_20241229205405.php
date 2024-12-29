@@ -86,7 +86,7 @@ if (isset($_SESSION['username'])) {
           <div class="dropdown-content">
             <a href="#" onclick="filterCrafts('Watercolor Painting')">Watercolor Painting</a>
             <a href="#" onclick="filterCrafts('Acrylic Painting')">Acrylic Painting</a>
-            <a href="#" onclick="filterCrafts('Sketching')">Sketching</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Sketching</a>
           </div>
         </div>
         <div class="dropdown">
@@ -95,9 +95,9 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Origami')">Origami</a>
-            <a href="#" onclick="filterCrafts('Scrapbooking')">Scrapbooking</a>
-            <a href="#" onclick="filterCrafts('Card Making')">Card Making</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Origami</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Scrapbooking</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Card Making</a>
           </div>
         </div>
         <div class="dropdown">
@@ -106,9 +106,9 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Knitting')">Knitting</a>
-            <a href="#" onclick="filterCrafts('Crocheting')">Crocheting</a>
-            <a href="#" onclick="filterCrafts('Embroidery')">Embroidery</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Knitting</a>
+            <a href="#" onclick="filterCrafts('Acrylic Painting')">Crocheting</a>
+            <a href="#">Embroidery</a>
           </div>
         </div>
         <div class="dropdown">
@@ -117,8 +117,8 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Beading')">Beading</a>
-            <a href="#" onclick="filterCrafts('Polymer Clay Jewelry')">Polymer Clay Jewelry</a>
+            <a href="#">Beading</a>
+            <a href="#">Polymer Clay Jewelry</a>
           </div>
         </div>
         <div class="dropdown">
@@ -127,8 +127,8 @@ if (isset($_SESSION['username'])) {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#" onclick="filterCrafts('Wheel Throwing')">Wheel Throwing</a>
-            <a href="#" onclick="filterCrafts('Hand Building')">Hand Building</a>
+            <a href="#">Wheel Throwing</a>
+            <a href="#">Hand Building</a>
           </div>
         </div>
       </div>

@@ -119,8 +119,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </script>";
             }
         } else {
-            echo "<script>
-                    alert('Current password is incorrect!');
+            echo "
+            <script>
+                    alert('New passwords do not match!');
                     window.location.href = 'main.php';
                 </script>";
         }

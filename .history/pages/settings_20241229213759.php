@@ -113,16 +113,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     window.location.href = 'main.php';
                 </script>";
             } else {
-                echo "<script>
-                    alert('New passwords do not match!');
+                echo "
+                <script>
+                    alert('Password changed successfully!');
                     window.location.href = 'main.php';
                 </script>";
             }
         } else {
-            echo "<script>
-                    alert('Current password is incorrect!');
-                    window.location.href = 'main.php';
-                </script>";
+            echo "Current password is incorrect.";
         }
 
     } elseif (isset($_POST['deleteAccount'])) {

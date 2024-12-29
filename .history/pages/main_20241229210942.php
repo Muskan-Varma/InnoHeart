@@ -9,7 +9,7 @@ if (isset($_SESSION['username'])) {
 
     $crafts = [];
     while ($row = $result->fetch_assoc()) {
-        $cid = $row['cid'];
+         = $row['cid'];$cid
         $imageSql = "SELECT image_description FROM images WHERE cid = ?";
         $imgStmt = $conn->prepare($imageSql);
         $imgStmt->bind_param("i", $cid);

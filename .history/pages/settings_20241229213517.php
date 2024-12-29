@@ -44,10 +44,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->close();
     
-        echo "<script>
-                alert('Profile updated successfully !');
+        echo "
+        <script>
+                alert('Craft and images uploaded successfully!');
                 window.location.href = 'main.php';
-              </script>";    
+              </script>"";    
 
     } elseif (isset($_POST['updateCraft'])) {
         // Update craft
@@ -63,10 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->close();
 
-        echo "<script>
-                alert('Craft updated successfully !');
-                window.location.href = 'main.php';
-              </script>";
+        echo "Craft updated successfully.";
 
     } elseif (isset($_POST['deleteCraft'])) {
         // Delete craft
@@ -78,10 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->close();
 
-        echo "<script>
-                alert('Craft deleted successfully !');
-                window.location.href = 'main.php';
-              </script>";
+        echo "Craft deleted successfully.";
 
     } elseif (isset($_POST['changePassword'])) {
         // Change password
@@ -108,21 +103,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $stmt->execute();
                 $stmt->close(); // Close after executing
 
-                echo "<script>
-                    alert('Password changed successfully!');
-                    window.location.href = 'main.php';
-                </script>";
+                echo "Password changed successfully.";
             } else {
-                echo "<script>
-                    alert('New passwords do not match!');
-                    window.location.href = 'main.php';
-                </script>";
+                echo "New passwords do not match.";
             }
         } else {
-            echo "<script>
-                    alert('Current password is incorrect!');
-                    window.location.href = 'main.php';
-                </script>";
+            echo "Current password is incorrect.";
         }
 
     } elseif (isset($_POST['deleteAccount'])) {

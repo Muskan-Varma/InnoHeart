@@ -119,10 +119,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </script>";
             }
         } else {
-            echo "<script>
+            echo "";<script>
                     alert('Current password is incorrect!');
                     window.location.href = 'main.php';
-                </script>";
+                </script>
         }
 
     } elseif (isset($_POST['deleteAccount'])) {

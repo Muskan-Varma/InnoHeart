@@ -21,9 +21,7 @@ $result = $stmt->get_result();
 if ($result->num_rows > 0) {
     $user = $result->fetch_assoc();
 } else {
-    echo "<script>
-            alert('No User Data Found !!');
-        </script>";
+    echo "No user data found.";
     exit();
 }
 $stmt->close();
@@ -44,10 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->close();
     
-        echo "<script>
-                alert('Profile updated successfully !');
-                window.location.href = 'main.php';
-              </script>";    
+        echo "Profile updated successfully.";    
 
     } elseif (isset($_POST['updateCraft'])) {
         // Update craft
@@ -63,10 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->close();
 
-        echo "<script>
-                alert('Craft updated successfully !');
-                window.location.href = 'main.php';
-              </script>";
+        echo "Craft updated successfully.";
 
     } elseif (isset($_POST['deleteCraft'])) {
         // Delete craft
@@ -78,10 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->close();
 
-        echo "<script>
-                alert('Craft deleted successfully !');
-                window.location.href = 'main.php';
-              </script>";
+        echo "Craft deleted successfully.";
 
     } elseif (isset($_POST['changePassword'])) {
         // Change password
@@ -108,21 +97,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $stmt->execute();
                 $stmt->close(); // Close after executing
 
-                echo "<script>
-                    alert('Password changed successfully!');
-                    window.location.href = 'main.php';
-                </script>";
+                echo "Password changed successfully.";
             } else {
-                echo "<script>
-                    alert('New passwords do not match!');
-                    window.location.href = 'main.php';
-                </script>";
+                echo "New passwords do not match.";
             }
         } else {
-            echo "<script>
-                    alert('Current password is incorrect!');
-                    window.location.href = 'main.php';
-                </script>";
+            echo "Current password is incorrect.";
         }
 
     } elseif (isset($_POST['deleteAccount'])) {
@@ -217,13 +197,17 @@ $stmt->close();
             <h2>Manage Crafts</h2><br>
             <div class="card">
                 <div class="product-card">
-                <div class="badge"><?php echo htmlspecialchars($craft['subcategory']); ?></div>
+                <div class="badge"><?php echo htmlspecialchars($row['subcategory']); ?></div>
                     <div class="product-tumb">
-                        <?php if (!empty($craft['images'])): ?>
-                        <div class="image-slider" data-index="<?php echo $craft['cid']; ?>">
-                            <?php foreach ($craft['images'] as $index => $image): ?>
+                        <?php if (!empty($row['images'])): ?>
+                        <div class="image-slider" data-index="<?php echo $row['cid']; ?>">
+                            <?php foreach ($row['images'] as $index => $image): ?>
                                 <img src="uploads/<?php echo htmlspecialchars($image); ?>" alt="" style="display: <?php echo $index === 0 ? 'block' : 'none'; ?>;">
                             <?php endforeach; ?>
+                            <?php if (count($row['images']) > 1): ?>
+                                <button class="prev" onclick="changeImage(this, -1)">&#10094;</button>
+                                <button class="next" onclick="changeImage(this, 1)">&#10095;</button>
+                            <?php endif; ?>
                         </div>
                         <?php endif; ?>
                     </div>

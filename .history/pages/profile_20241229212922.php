@@ -93,6 +93,10 @@ $conn->close();
                                 <?php foreach ($row['images'] as $index => $image): ?>
                                     <img src="uploads/<?php echo htmlspecialchars($image); ?>" alt="" style="display: <?php echo $index === 0 ? 'block' : 'none'; ?>;">
                                 <?php endforeach; ?>
+                                <?php if (count($row['images']) > 1): ?>
+                                    <button class="prev" onclick="changeImage(this, -1)">&#10094;</button>
+                                    <button class="next" onclick="changeImage(this, 1)">&#10095;</button>
+                                <?php endif; ?>
                             </div>
                             <?php endif; ?>
                         </div>
@@ -130,6 +134,24 @@ $conn->close();
                 error: function () {
                     $("playarea").html("<p>An error has occurred</p>");
                 },
+                });
+            }
+
+            let currentImageIndices = {};
+
+            function changeImage(button, direction) {
+                const slider = button.closest('.image-slider');
+                const images = slider.querySelectorAll('img');
+                const sliderIndex = slider.dataset.index;
+
+                if (!currentImageIndices[sliderIndex]) {
+                    currentImageIndices[sliderIndex] = 0;
+                }
+
+                currentImageIndices[sliderIndex] = (currentImageIndices[sliderIndex] + direction + images.length) % images.length;
+
+                images.forEach((img, index) => {
+                    img.style.display = (index === currentImageIndices[sliderIndex]) ? 'block' : 'none';
                 });
             }
         </script>

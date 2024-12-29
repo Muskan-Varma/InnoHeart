@@ -78,8 +78,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->close();
 
-        echo "<script>
-                alert('Craft deleted successfully !');
+        echo "Craft deleted successfully.
+        <script>
+                alert('Craft updated successfully !');
                 window.location.href = 'main.php';
               </script>";
 
@@ -108,21 +109,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $stmt->execute();
                 $stmt->close(); // Close after executing
 
-                echo "<script>
-                    alert('Password changed successfully!');
-                    window.location.href = 'main.php';
-                </script>";
+                echo "Password changed successfully.";
             } else {
-                echo "<script>
-                    alert('New passwords do not match!');
-                    window.location.href = 'main.php';
-                </script>";
+                echo "New passwords do not match.";
             }
         } else {
-            echo "<script>
-                    alert('Current password is incorrect!');
-                    window.location.href = 'main.php';
-                </script>";
+            echo "Current password is incorrect.";
         }
 
     } elseif (isset($_POST['deleteAccount'])) {
