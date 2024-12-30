@@ -142,7 +142,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Destroy session and redirect to homepage
         session_destroy();
-        header("Location: ../index.php");
+        header("Location: ../index.");
         exit();
     }
 }
