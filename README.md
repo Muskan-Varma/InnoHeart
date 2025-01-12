@@ -42,6 +42,9 @@ SARAS/
 ## 📸 **Screenshots**  
 > Add your project screenshots here. Replace the placeholders with real image links.  
 
+- **Main Page**:  
+  ![Main Page]()
+  
 - **Home Page**:  
   ![Home Page](https://via.placeholder.com/800x400.png?text=Screenshot+of+Home+Page)  
 
@@ -80,7 +83,3 @@ Be a part of SARAS and turn your creativity into opportunity. Let's build a thri
 
 > *"SARAS: Where creativity meets simplicity."*
 ```  
-
-### Notes:  
-1. Replace placeholders like `your-video-id` with the actual YouTube video ID and `yourusername` with your GitHub username.  
-2. Add your project screenshots in the `screenshots` folder of the repository and update the links accordingly.
