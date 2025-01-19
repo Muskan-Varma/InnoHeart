@@ -45,54 +45,54 @@ SARAS/
   ![Index Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png)
 
 - **Database Structure**:  
-  ![Database Structure]()
+  ![Database Structure](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/db.png)
 
 - **Register Page**:  
-  ![Register Page]()
-  ![Register Page]()
-  ![Register Page]()  
+  ![Register Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/register.png)
+  ![Register Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/register2.png)
+  ![Register Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/success.png)  
     
 - **Login Page**:  
-  ![Login Page]()
+  ![Login Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/login.png)
     
 - **About Page**:  
-  ![About Page]()
-  ![About Page]()
-  ![About Page]()
-  ![About Page]()
+  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about.png)
+  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about2.png)
+  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about3.png)
+  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about4.png)
     
 - **Profile Page**:  
-  ![Profile Page]()
+  ![Profile Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/profile.png)
     
 - **New Craft Page**:  
-  ![Nw Craft Page]()
-  ![Nw Craft Page]()
+  ![Nw Craft Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/new_upload.png)
+  ![Nw Craft Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/upload_success.png)
     
 - **Main Page**:  
-  ![Main Page]()
+  ![Main Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/main.png)
     
 - **Craft Details**:  
-  ![Craft Details]()
-  ![Craft Details]()
+  ![Craft Details](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/details.png)
+  ![Craft Details](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/details2.png)
     
 - **Profile Craft Uploads**:  
-  ![Profile Craft Uploads]()
+  ![Profile Craft Uploads](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/profile_uploads.png)
     
 - **Favourites Page**:  
-  ![Favourites Page]()
-  ![Favourites Page]()
+  ![Favourites Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/favourite_success.png)
+  ![Favourites Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/favourites.png)
     
 - **Settings Page**:  
-  ![Settings Page]()
-  ![Settings Page]()
-  ![Settings Page]()
+  ![Settings Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings.png)
+  ![Settings Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings2.png)
+  ![Settings Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings3.png)
 
 ---  
 
 ## 📹 **Demo Video**  
 > Showcase your project in action! Insert your YouTube video link here.  
 
-[![Watch the Demo](https://img.youtube.com/vi/your-video-id/0.jpg)](https://www.youtube.com/watch?v=your-video-id)  
+[![Watch the Demo](https://youtu.be/HQgTgx4kaAE)  
 
 ---  
 
