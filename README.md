@@ -39,19 +39,53 @@ SARAS/
 ```
 
 ## 📸 **Screenshots**  
-> Add your project screenshots here. Replace the placeholders with real image links.  
+> Add your project screenshots here. Replace the placeholders with real image links. 
 
+- **Index Page**:  
+  ![Index Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png)
+
+- **Database Structure**:  
+  ![Database Structure]()
+
+- **Register Page**:  
+  ![Register Page]()
+  ![Register Page]()
+  ![Register Page]()  
+    
+- **Login Page**:  
+  ![Login Page]()
+    
+- **About Page**:  
+  ![About Page]()
+  ![About Page]()
+  ![About Page]()
+  ![About Page]()
+    
+- **Profile Page**:  
+  ![Profile Page]()
+    
+- **New Craft Page**:  
+  ![Nw Craft Page]()
+  ![Nw Craft Page]()
+    
 - **Main Page**:  
   ![Main Page]()
-  
-- **Home Page**:  
-  ![Home Page](https://via.placeholder.com/800x400.png?text=Screenshot+of+Home+Page)  
-
-- **Craft Display Page**:  
-  ![Craft Display](https://via.placeholder.com/800x400.png?text=Screenshot+of+Craft+Display)  
-
-- **Favorites Page**:  
-  ![Favorites Page](https://via.placeholder.com/800x400.png?text=Screenshot+of+Favorites+Page)  
+    
+- **Craft Details**:  
+  ![Craft Details]()
+  ![Craft Details]()
+    
+- **Profile Craft Uploads**:  
+  ![Profile Craft Uploads]()
+    
+- **Favourites Page**:  
+  ![Favourites Page]()
+  ![Favourites Page]()
+    
+- **Settings Page**:  
+  ![Settings Page]()
+  ![Settings Page]()
+  ![Settings Page]()
 
 ---  
 
