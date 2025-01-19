@@ -92,7 +92,7 @@ SARAS/
 ## 📹 **Demo Video**  
 > Showcase your project in action! Insert your YouTube video link here.  
 
-[![Watch the Demo](https://youtu.be/HQgTgx4kaAE?si=FX9abnhCxZTVQWyh)  
+[![Watch the Demo](https://img.youtu.com/vi/HQgTgx4kaAE?si=FX9abnhCxZTVQWyh/0.jpg)](https://www.youtube.com/watch?v=HQgTgx4kaAE?si=FX9abnhCxZTVQWyh)  
 
 ---  
 
