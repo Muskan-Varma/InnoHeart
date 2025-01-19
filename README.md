@@ -41,7 +41,8 @@ SARAS/
 ## 📸 **Screenshots**  
 
 - **Index Page**:  
-  ![Index Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png =400*400)
+  ![Index Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png)
+  <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png" width="400" height="400">
 
 - **Database Structure**:  
   ![Database Structure](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/db.png)
