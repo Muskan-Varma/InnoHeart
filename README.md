@@ -39,10 +39,9 @@ SARAS/
 ```
 
 ## 📸 **Screenshots**  
-> Add your project screenshots here. Replace the placeholders with real image links. 
 
 - **Index Page**:  
-  ![Index Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png)
+  ![Index Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png=400*400)
 
 - **Database Structure**:  
   ![Database Structure](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/db.png)
@@ -90,7 +89,6 @@ SARAS/
 ---  
 
 ## 📹 **Demo Video**  
-> Showcase your project in action! Insert your YouTube video link here.  
 
 [![Watch the Demo](https://img.youtu.com/vi/HQgTgx4kaAE?si=FX9abnhCxZTVQWyh/0.jpg)](https://www.youtube.com/watch?v=HQgTgx4kaAE?si=FX9abnhCxZTVQWyh)  
 
