@@ -13,7 +13,6 @@ SARAS is not just a marketplace; it's a community. Our mission is to empower eve
 - **Dynamic Craft Cards**: Interactive cards showcasing crafts with images, details, and seamless navigation.  
 - **Favorites List**: Save crafts you love and access them anytime.  
 - **Direct Buyer-Seller Contact**: Transparent communication for smooth transactions.  
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.  
 - **Secure Platform**: Safe space for creators to sell without intermediaries.  
 
 ---  
