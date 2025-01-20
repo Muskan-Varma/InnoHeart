@@ -114,7 +114,7 @@ SARAS/
 
 ## 📹 **Demo Video**  
 
-[![Watch the Demo](https://img.youtu.com/vi/HQgTgx4kaAE?si=FX9abnhCxZTVQWyh/0.jpg)](https://www.youtube.com/watch?v=HQgTgx4kaAE?si=FX9abnhCxZTVQWyh)  
+[![Watch the Demo](https://img.youtube.com/vi/HQgTgx4kaAE/0.jpg)](https://www.youtube.com/watch?v=HQgTgx4kaAE)
 
 ---  
 
