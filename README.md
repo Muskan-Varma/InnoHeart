@@ -38,53 +38,77 @@ SARAS/
 └── README.md           # Project documentation
 ```
 
-## 📸 **Screenshots**  
+## 📸 **Screenshots**
 
 - **Index Page**:  
-  ![Index Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png)
+  <div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/index.png" alt="Index Page" width="45%">
+  </div>
 
 - **Database Structure**:  
-  ![Database Structure](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/db.png)
+  <div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/db.png" alt="Database Structure" width="45%">
+  </div>
 
 - **Register Page**:  
-  ![Register Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/register.png)
-  ![Register Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/register2.png)
-  ![Register Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/success.png)  
-    
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/register.png" alt="Register Page" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/register2.png" alt="Register Page 2" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/success.png" alt="Success Page" width="45%">
+  </div>
+
 - **Login Page**:  
-  ![Login Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/login.png)
-    
+  <div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/login.png" alt="Login Page" width="45%">
+  </div>
+
 - **About Page**:  
-  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about.png)
-  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about2.png)
-  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about3.png)
-  ![About Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about4.png)
-    
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about.png" alt="About Page" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about2.png" alt="About Page 2" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about3.png" alt="About Page 3" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/about4.png" alt="About Page 4" width="45%">
+  </div>
+
 - **Profile Page**:  
-  ![Profile Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/profile.png)
-    
+  <div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/profile.png" alt="Profile Page" width="45%">
+  </div>
+
 - **New Craft Page**:  
-  ![Nw Craft Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/new_upload.png)
-  ![Nw Craft Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/upload_success.png)
-    
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/new_upload.png" alt="New Craft Page" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/upload_success.png" alt="Upload Success Page" width="45%">
+  </div>
+
 - **Main Page**:  
-  ![Main Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/main.png)
-    
+  <div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/main.png" alt="Main Page" width="45%">
+  </div>
+
 - **Craft Details**:  
-  ![Craft Details](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/details.png)
-  ![Craft Details](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/details2.png)
-    
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/details.png" alt="Craft Details" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/details2.png" alt="Craft Details 2" width="45%">
+  </div>
+
 - **Profile Craft Uploads**:  
-  ![Profile Craft Uploads](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/profile_uploads.png)
-    
+  <div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/profile_uploads.png" alt="Profile Craft Uploads" width="45%">
+  </div>
+
 - **Favourites Page**:  
-  ![Favourites Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/favourite_success.png)
-  ![Favourites Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/favourites.png)
-    
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/favourite_success.png" alt="Favourite Success Page" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/favourites.png" alt="Favourites Page" width="45%">
+  </div>
+
 - **Settings Page**:  
-  ![Settings Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings.png)
-  ![Settings Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings2.png)
-  ![Settings Page](https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings3.png)
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings.png" alt="Settings Page" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings2.png" alt="Settings Page 2" width="45%">
+    <img src="https://github.com/Muskan-Varma/InnoHeart/blob/main/screenshots/settings3.png" alt="Settings Page 3" width="45%">
+  </div>
 
 ---  
 
@@ -104,8 +128,8 @@ We welcome contributions from the community! Feel free to:
 
 ## 📧 **Contact**  
 Have questions or feedback? Reach out to us:  
-- **Email**: yourname@example.com  
-- **GitHub**: [YourUsername](https://github.com/yourusername)  
+- **Email**: muskanofficial0304@gmail.com  
+- **GitHub**: [Muskan-Varma](https://github.com/Muskan-Varma)  
 
 ---  
 
